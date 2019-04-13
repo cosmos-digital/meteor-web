@@ -1,0 +1,7 @@
+#!/bin/sh
+rm node_modules -rf
+npm cache clean
+npm install -g @angular/cli  \
+&& npm install --save-dev  --unsafe-perm node-sass \
+&& npm install \
+&& npm start
