@@ -43,11 +43,7 @@ import { NbSecurityModule } from '@nebular/security';
 import {
   FooterComponent,
   HeaderComponent,
-  SearchInputComponent,
   ThemeSettingsComponent,
-  SwitcherComponent,
-  TinyMCEComponent,
-  ToggleSettingsButtonComponent,
 } from './components';
 import {
   CapitalizePipe,
@@ -58,10 +54,7 @@ import {
   EvaIconsPipe,
 } from './pipes';
 import {
-  OneColumnLayoutComponent,
-  SampleLayoutComponent,
-  ThreeColumnsLayoutComponent,
-  TwoColumnsLayoutComponent,
+  SampleLayoutComponent
 } from './layouts';
 import { METEOR_THEME } from './styles/theme.meteor';
 
@@ -104,17 +97,10 @@ const NB_MODULES = [
 ];
 
 const COMPONENTS = [
-  SwitcherComponent,
   HeaderComponent,
   FooterComponent,
-  SearchInputComponent,
   ThemeSettingsComponent,
-  TinyMCEComponent,
-  OneColumnLayoutComponent,
   SampleLayoutComponent,
-  ThreeColumnsLayoutComponent,
-  TwoColumnsLayoutComponent,
-  ToggleSettingsButtonComponent,
 ];
 
 const ENTRY_COMPONENTS = [
