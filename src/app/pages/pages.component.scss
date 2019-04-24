@@ -1,6 +1,9 @@
 @import '../@theme/styles/themes';
 
 @include nb-install-component() {
+  button {
+    cursor: pointer;
+  }
   /deep/ router-outlet + * {
     display: block;
     animation: fade 1s;

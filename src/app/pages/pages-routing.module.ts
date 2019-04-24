@@ -12,6 +12,12 @@ const routes: Routes = [{
     path: 'dashboard',
     component: DashboardComponent,
   }, {
+    path: 'invoice',
+    loadChildren: './invoices/invoice.module#InvoiceModule',
+  }, {
+    path: 'simplified',
+    loadChildren: './invoices/simplified/simplified.module#SimplifiedModule',
+  }, {
     path: '',
     redirectTo: 'dashboard',
     pathMatch: 'full',

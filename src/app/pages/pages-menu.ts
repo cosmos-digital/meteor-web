@@ -7,4 +7,14 @@ export const MENU_ITEMS: NbMenuItem[] = [
     link: '/pages/dashboard',
     home: true,
   },
+  {
+    title: 'Invoices',
+    icon: 'nb-compose',
+    children: [
+      {
+        title: 'Simplified',
+        link: '/pages/simplified',
+      },
+    ],
+  },
 ];
